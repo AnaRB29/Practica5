@@ -1,0 +1,77 @@
+/* Estilo para el cuerpo del documento */
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #6caa71;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #078f3b;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para enlaces */
+a:hover {
+    color: rgb(148, 182, 158);
+    background-color: rgb(64, 124, 14);
+    position:sticky;
+  }
+
+/* Estilo para los títulos */
+h1, h2, h3 {
+    color: #0b3f10;
+}
+
+/* Estilo para el índice temático */
+nav ul {
+    list-style-type: none;
+    padding: 2;
+}
+
+nav ul li {
+    margin-bottom: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #07e407;
+}
+
+/* Estilo para las imágenes y videos */
+img, iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Estilo para la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #033a23;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilo para las listas */
+ol, ul {
+    margin-left: 20px;
+}
+
+/* Estilo para los detalles */
+details {
+    margin: 20px 0;
+}
